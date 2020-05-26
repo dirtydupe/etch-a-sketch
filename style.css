@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(16, 30px);
+    grid-template-columns: repeat(16, 30px);
+   /* grid-auto-rows: 30px;*/
+    height: 960px;
+    width: 960px;
+}
+
+.cell {
+    border: solid rgb(230, 229, 229) 1px;
+    height: 30px;
+/*     width: 30px; */
+    /* background-color: rgb(243, 243, 243); */
+}
+
+.cell:hover {
+    background-color: black;
+}
