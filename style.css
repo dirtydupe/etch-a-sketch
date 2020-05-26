@@ -8,6 +8,5 @@
 }
 
 .cell {
-    /*border: solid rgb(230, 229, 229) 1px;*/
-   /* height: 30px;*/
+    border: solid rgb(230, 229, 229) var(--border);
 }
